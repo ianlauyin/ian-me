@@ -16,6 +16,10 @@ The page is one screen that scrolls. It has these parts, in this order:
 
 All the text is in `frontend/src/module/profile/content.ts`. The page follows the light or dark color scheme of the system.
 
+## Tab icon
+
+The tab icon is `frontend/public/favicon.svg`. It shows a terminal prompt: a light chevron and a yellow cursor on a green tile. The icon tells that Ian works with agents in the terminal. The icon uses only shapes and no text, so it does not need a font and it is clear at 16 px.
+
 ## Agent session card
 
 The agent session card shows a demo conversation between Ian and an agent, in the style of a terminal.

@@ -2,6 +2,8 @@
 
 The personal website of Ian Lau. The page introduces Ian as an agentic engineer, the projects and the way of work.
 
+The live site is at https://me.ianlau.app.
+
 ## Layout
 
 - `frontend/`: SolidJS and TypeScript. Vite builds the page into static files.
