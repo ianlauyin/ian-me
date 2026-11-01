@@ -63,4 +63,4 @@ The website is `frontend/`.
 - Give the outermost tag of each component in `frontend/src/component/` a class name with the `g-` prefix. Use the `g-` prefix also for the modifier classes on that tag.
 - If you override the internal parts of a different component, put the `g-` class of that component in the selector.
 
-The lint config is `frontend/eslint.config.js` and `frontend/stylelint.config.js`.
+The lint config is `frontend/biome.json` and `frontend/stylelint.config.js`.
