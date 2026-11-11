@@ -1,6 +1,6 @@
 # ian-me
 
-Before you look up business logic or code implementation, read `spec/structure.md`. Then read the spec and the code that it points to.
+Before you look up a feature or the code implementation, read `spec/structure.md`. Then read the spec and the code that it points to.
 
 ## Rules
 
