@@ -9,7 +9,3 @@ A feature spec is one file `spec/<package>/NN_kebab-name.md` in that package fol
 | Package | Scope |
 | --- | --- |
 | `spec/frontend/00_context.md` | The web page |
-
-## Open behaviour
-
-The repo has one file for open items: `spec/open-behaviour.json`. It uses the same rules as `ian-cloud-storage` `spec/structure.md`. When no spec has items, the file is an empty list.

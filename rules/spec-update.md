@@ -2,7 +2,7 @@
 
 When you change the code, update the spec for that code in the same change. A spec that is not up to date is a bug.
 
-The spec tree is in `spec/structure.md`.
+The specification index is `spec/catalog.md`.
 
 Update the feature spec `spec/<package>/NN_kebab-name.md` when the change affects user-visible behaviour, a domain rule, or the wire contract.
 
