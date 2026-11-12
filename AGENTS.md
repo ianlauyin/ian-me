@@ -1,6 +1,6 @@
 # ian-me
 
-Before you look up a feature or the code implementation, read the specification index `spec/catalog.md`. Then read the relevant spec and the code that it points to.
+Before you look up business logic, read spec/catalog.md for the specification index.
 
 ## Rules
 
