@@ -1,6 +1,6 @@
 # ian-me
 
-Before you look up business logic, read spec/catalog.md for the specification index.
+Before you look up business logic, read `spec/catalog.md` for the specification index.
 
 ## Rules
 
