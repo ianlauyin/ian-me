@@ -7,11 +7,11 @@ The live site is at https://me.ianlau.app.
 ## Layout
 
 - `frontend/`: SolidJS and TypeScript. Vite builds the page into static files.
-- `spec/`: the behaviour.
+- `catalog.md`: the behaviour.
 
 ## Change the text
 
-All the text of the page is in `frontend/src/module/profile/content.ts`.
+All the text of the page is in `frontend/src/Profile/content.ts`.
 
 ## Run locally
 

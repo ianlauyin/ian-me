@@ -15,7 +15,7 @@ The website is `frontend/`.
 
 - Put UI primitives and controls that have no domain logic in `frontend/src/component/`.
 - A module is one feature. It has its own state, its own actions and its own entry component.
-- Put each module in `frontend/src/module/{module}`.
+- Put each module in `frontend/src/{module}`.
 - Give each module an id selector.
 - The global context is `frontend/src/context.tsx`.
 - Each module has one context in `context.ts` in the module folder. Put the actions that are not UI logic in this context.

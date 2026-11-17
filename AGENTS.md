@@ -1,6 +1,6 @@
 # ian-me
 
-Before you look up business logic, read `spec/catalog.md` for the specification index.
+Before you read or change a file in `frontend/`, read `catalog.md`.
 
 ## Rules
 
@@ -9,5 +9,4 @@ Before you look up business logic, read `spec/catalog.md` for the specification 
 | `rules/coding-style.md` | Before the first edit |
 | `rules/debugging.md` | Before you fix a bug or find the cause of an error |
 | `rules/git-convention.md` | Before you make a git commit |
-| `rules/spec-update.md` | After you change the code |
 | `rules/writing.md` | Before you write or update a markdown file |

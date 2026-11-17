@@ -90,7 +90,7 @@ export type ToolGroup = {
 
 export const TOOLS: ToolGroup[] = [
   { name: "The crew", tools: ["Claude Code", "Cursor","Specs & rules"] },
-  { name: "The stack", tools: ["Rust", "Axum", "TypeScript", "SolidJS", "React", "Redux", "SQLite", "Redis", "Google Cloud", "Cloud Build"] },
+  { name: "The stack", tools: ["Rust", "Axum", "TypeScript", "SolidJS", "React", "Redux", "SQLite", "Postgres", "Redis", "Google Cloud", "Cloud Build"] },
 ];
 
 export type Link = {
