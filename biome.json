@@ -1,0 +1,22 @@
+{
+    "files": {
+        "includes": ["**", "!**/dist", "!**/.ed"]
+    },
+    "formatter": {
+        "indentStyle": "space",
+        "indentWidth": 4,
+        "lineWidth": 200
+    },
+    "javascript": {
+        "formatter": {
+            "trailingCommas": "es5",
+            "bracketSpacing": false,
+            "arrowParentheses": "asNeeded"
+        }
+    },
+    "json": {
+        "formatter": {
+            "bracketSpacing": false
+        }
+    }
+}

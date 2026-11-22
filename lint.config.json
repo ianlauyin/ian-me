@@ -1,0 +1,9 @@
+{
+    "ruleset": "project",
+    "fe": {
+        "paths": ["."]
+    },
+    "be": {
+        "paths": []
+    }
+}

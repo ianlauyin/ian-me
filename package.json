@@ -1,0 +1,25 @@
+{
+    "name": "ian-me-web",
+    "private": true,
+    "type": "module",
+    "packageManager": "pnpm@12.3.2",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "check": "tsc --noEmit",
+        "format": "biome format --write"
+    },
+    "dependencies": {
+        "@fontsource/inter": "^5.2.5",
+        "@solidjs/web": "^2.0.3",
+        "solid-js": "^2.0.3"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "2.6.4",
+        "@solidjs/vite-plugin": "^3.0.1",
+        "stylelint": "^17.16.0",
+        "typescript": "^7.0.2",
+        "vite": "^8.3.8",
+        "wrangler": "^4.156.0"
+    }
+}

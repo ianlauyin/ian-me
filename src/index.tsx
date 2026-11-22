@@ -1,13 +1,10 @@
-import { render } from "solid-js/web";
+import {render} from "@solidjs/web";
+import {Profile} from "./Profile";
 import "@fontsource/inter/400.css";
 import "@fontsource/inter/500.css";
 import "@fontsource/inter/600.css";
 import "@fontsource/inter/700.css";
-import Profile from "./Profile";
 import "./index.css";
 
 const root = document.getElementById("root");
-
-if (root) {
-  render(() => <Profile />, root);
-}
+export const dispose = root ? render(() => <Profile />, root) : undefined;
