@@ -11,10 +11,10 @@ export const TAGLINE = {
 export const INTRO =
     "I'm an agentic engineer. I design the system, write the specs and set the rules — then a crew of AI agents writes most of the code while I steer, review every diff and ship. Rust in the back, SolidJS in the front, and a lot of very productive conversations in between.";
 
-export type LogLine = {
+export interface LogLine {
     who: "ian" | "agent" | "done";
     text: string;
-};
+}
 
 export const AGENT_LOG: LogLine[] = [
     {who: "ian", text: "Build a log server for all my apps."},
@@ -25,10 +25,10 @@ export const AGENT_LOG: LogLine[] = [
     {who: "done", text: "Shipped. Spec updated. Coffee still warm ☕"},
 ];
 
-export type Step = {
+export interface Step {
     title: string;
     text: string;
-};
+}
 
 export const LOOP: Step[] = [
     {
@@ -49,12 +49,12 @@ export const LOOP: Step[] = [
     },
 ];
 
-export type Project = {
+export interface Project {
     icon: string;
     name: string;
     stack: string;
     summary: string;
-};
+}
 
 export const PROJECTS: Project[] = [
     {
@@ -78,20 +78,20 @@ export const PROJECTS: Project[] = [
     },
 ];
 
-export type ToolGroup = {
+export interface ToolGroup {
     name: string;
     tools: string[];
-};
+}
 
 export const TOOLS: ToolGroup[] = [
     {name: "The crew", tools: ["Claude Code", "Cursor", "Specs & rules"]},
     {name: "The stack", tools: ["Rust", "Axum", "TypeScript", "SolidJS", "React", "Redux", "SQLite", "Postgres", "Redis", "Google Cloud", "Cloud Build"]},
 ];
 
-export type Link = {
+export interface Link {
     label: string;
     href: string;
-};
+}
 
 export const LINKS: Link[] = [{label: "GitHub", href: "https://github.com/ianlauyin"}];
 

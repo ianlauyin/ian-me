@@ -5,9 +5,12 @@
     "packageManager": "pnpm@12.3.2",
     "scripts": {
         "dev": "vite",
-        "build": "vite build",
-        "check": "tsc --noEmit",
-        "format": "biome format --write"
+        "build": "pnpm typecheck && pnpm test && pnpm lint && vite build",
+        "typecheck": "tsc -p tsconfig.json",
+        "test": "vitest run --passWithNoTests",
+        "format": "biome format --write",
+        "lint": "ian-lint fe .",
+        "check": "pnpm format && pnpm typecheck && pnpm test && pnpm lint"
     },
     "dependencies": {
         "@fontsource/inter": "^5.2.5",
@@ -20,6 +23,7 @@
         "stylelint": "^17.16.0",
         "typescript": "^7.0.2",
         "vite": "^8.3.8",
+        "vitest": "^5.1.1",
         "wrangler": "^4.156.0"
     }
 }
